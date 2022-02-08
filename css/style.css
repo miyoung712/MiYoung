@@ -1,0 +1,271 @@
+@font-face {
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2479807/CosiAzure-Black.woff2") format("woff2");
+  font-family: "Cosi Azure";
+}
+@font-face {
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2479807/ageo-regular.woff2") format("woff2");
+  font-family: "Ageo";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
+  color: white;
+  background-color: #e8e5e3;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {
+  font-size:5em;
+}
+
+h3 {
+  font-size: 2.369em;
+}
+
+h4 {
+  font-size: 1.777em;
+}
+
+h5 {
+  font-size: 1.333em;
+}
+
+small {
+  font-size: 0.75em;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.intro {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  z-index: 5;
+}
+.intro__title {
+  color: white;
+  max-width: 45%;
+  text-align: center;
+  mix-blend-mode: difference;
+  z-index: 2;
+  text-transform: uppercase;
+  transform: translateY(200px);
+}
+.intro__background {
+  position: absolute;
+  top: 0;
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  transform: scaleX(0);
+}
+.intro__background--left {
+  left: 0;
+  transform-origin: left center;
+}
+.intro__background--right {
+  left: 50%;
+  transform-origin: right center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  max-width: 93vw;
+  margin: 0 auto;
+
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  width:93px;
+  height:70px;
+  display: inline-block;
+  margin-top:-28px;
+}
+
+.header__logo:hover {cursor:pointer; }
+
+.header__nav {
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header__nav .nav_bar {display:flex; flex-direction: row; margin-top:-20px; }
+.nav_bar li {margin:10px;}
+.nav_bar li a:hover {color:#df9090; transition: 0.5s;}
+
+.header__nav > *:not(:last-child) {
+  margin-right: 8px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 35% 40% 25%;
+  height: 100vh;
+  
+}
+
+.hero h4 {
+  font-family:'Barlow', sans-serif;
+  color:#df9090;
+  font-size:12px;
+  margin-top:-620px;
+  font-weight: 500;
+  transform: rotate(90deg);
+  letter-spacing: 2px;
+  position: relative;
+  left:0;
+  text-transform: uppercase;
+  width:200px;
+  height:25px;
+
+  
+}
+
+.hero__col {
+  height: 100vh;
+  background-size: cover;
+}
+.hero__col--1 {
+  padding-top: 20%;
+}
+
+.hero__col--1 h1 {
+  font-family:'GowunBatang-Bold';
+  color:#3e3e3e;
+  position: relative;
+  font-size:54px;
+  line-height: 55px;
+  transform: translateX(50%);
+  margin-top:260px;
+  z-index: 3;
+}
+
+.hero__col--1 p{
+  font-family:'GyeonggiBatang';
+  color:#3e3e3e;
+  position: relative;
+  font-size:23px;
+  line-height: 28px;
+  margin-left: 335px;
+  margin-top:20px;
+  width:400px;
+  height:100px;
+  z-index: 3;
+
+}
+
+.hero__col--2 img {
+  object-fit: cover;
+  width:900px;
+  height:574px;
+  margin-left:166px;
+  margin-top:130px;
+}
+
+
+.btn_top {width:150px; height:60px; display:flex; margin-left:313px; margin-top:-25px;
+          justify-content:center; align-items:center; }
+
+/* 버튼 */
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 11px 26px;
+  transition: all .2s ease;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #df9090;
+  width: 40px;
+  height: 40px;
+  transition: all .3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-family: "S-CoreDream-4Regular";
+}
+
+.cta svg {
+  position: relative;
+  top: 2px;
+  margin-left: 2px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all .3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #d0bbae;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
+
+/* 버튼 */
