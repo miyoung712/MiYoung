@@ -110,7 +110,7 @@ small {
   display: flex;
   justify-content: space-between;
   padding: 60px 0;
-  max-width: 93vw;
+  max-width: 96vw;
   margin: 0 auto;
 
 }
@@ -135,6 +135,7 @@ small {
 .header__nav .nav_bar {display:flex; flex-direction: row; margin-top:-20px; }
 .nav_bar li {margin:10px;}
 .nav_bar li a:hover {color:#df9090; transition: 0.5s;}
+.navcolor {color:#df9090;}
 
 .header__nav > *:not(:last-child) {
   margin-right: 8px;
@@ -147,16 +148,18 @@ small {
   
 }
 
-.hero h4 {
+body > h4 {
   font-family:'Barlow', sans-serif;
-  color:#df9090;
+  color:#929292;
   font-size:12px;
-  margin-top:-600px;
-  font-weight: 500;
-  transform: rotate(90deg);
+  /* margin:-600px 0 0 50px; */
+  font-weight: 400;
+  transform: rotate(90deg) translateX(-50%);
+  transform-origin: left;
   letter-spacing: 2px;
-  position: relative;
-  left:0;
+  position: fixed;
+  top:49%;
+  left:55px;
   text-transform: uppercase;
   width:200px;
   height:25px;
