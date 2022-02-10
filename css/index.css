@@ -47,7 +47,7 @@ body {width:100%; height:5000px;}
 
 
 #work_top_box {width:1300px; height:165px; margin:0 auto; margin-top:10px; display:flex; align-items:flex-end; 
-         justify-content:center;  margin-top:50px;  background-color: brown;}
+         justify-content:center;  margin-top:50px; }
 #work_top_box h1 { font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:72px; }
 
 #work_box {width:1600px; height:670px; margin:0 auto; background-color:darkgrey;}
