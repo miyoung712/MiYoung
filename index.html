@@ -27,6 +27,17 @@
  <link rel="stylesheet" href="css/common.css">
  <link rel="stylesheet" href="css/index.css">
 
+ <script>
+  $(function () {
+    // 포트폴리오 1 
+    $('.work_1_r .w_imgbox').mouseover(function () {
+        $('.work_1_r .w_imgbox img').stop().animate({ 'marginTop': '-2000px' }, 5000);
+    });
+    $('.work_1_r .w_imgbox').mouseout(function () {
+        $('.work_1_r .w_imgbox img').stop().animate({ 'marginTop': '0px' }, 2000);
+    });
+  });
+</script>
 
 
 </head>
@@ -175,7 +186,7 @@
             </div>
               <div class="work_1_r">
                <div class="w_imgbox">
-                 <!-- <img src="img/work/mono.jpg" alt=""> -->
+                <img src="img/work/mono.jpg" alt="" style="margin-top: 0px;">
 
                </div>
 
