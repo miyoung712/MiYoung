@@ -69,12 +69,12 @@ body {width:100%; height:5000px;}
             display: inline-block; margin-top:-5px; }
 .box2_work .color_d:nth-of-type(2) {height: 20px; width: 20px; background-color:#c1c0c0; border-radius:50%; 
   display: inline-block; margin-top:-5px; margin-left:2px;}
-.box2_work p {font-family:'S-CoreDream-3Light'; color:#3e3e3e; font-size:15px; line-height:20px; }
+.box2_work p {font-family:'S-CoreDream-3Light'; color:#3e3e3e; font-size:15px; line-height:25px; }
 .box3_work { width:100%; height:60px; margin-top: 15px; background-color:deeppink;}
 .work_1_r {width:68%; height:670px; margin:0 auto; display:flex; align-items: center; background-color:darkgrey;}
 .w_imgbox {width:900px; height:560px; background-color:#df9090; margin-left:40px;
-           border-radius: 50px 10px;  box-shadow: 3px 3px 15px 0 #eee; }
-.w_imgbox .w_imgbox img {width:100%;}
+           border-radius: 50px 10px;  box-shadow: 3px 3px 15px 0 #eee; overflow: hidden; }
+.w_imgbox img {width:100%;  }
 
 
 
