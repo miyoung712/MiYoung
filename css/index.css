@@ -43,16 +43,36 @@ body {width:100%; height:5740px;}
 .about_2img {width:100%; height:600px; display:flex; align-items: center; }
 .about_2img img {width:370px; height:494px; position: absolute; right:310px; z-index:-1;}
 
-#skill_box {width:1300px; height:700px; margin:0 auto; }
-
-
-#work_top_box {width:1300px; height:165px; margin:0 auto; margin-top:10px; display:flex; align-items:flex-end; 
+#fake_box {width:1600px; height:100px;  margin:0 auto; margin-top:220px;}
+#skill_box {width:100%; height:220px; margin:0 auto; display:flex; 
+  align-items:flex-end;  justify-content:center;   background-color: #d8d5d3; }
+#skill_box h1 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:70px;}
+.skill_info_box {width:100%; height:470px; margin:0 auto; background-color: #d8d5d3;}
+.skill_info_box img:first-of-type {width:70px; height:70px; position: absolute; top:389%; left:40%; 
+  transform: translate(-50%,-50%);}
+.skill_info_box img:nth-of-type(2) { width:70px; height:70px; position: absolute; top:389%; left:45%; 
+  transform: translate(-50%,-50%);}
+.skill_info_box img:nth-of-type(3) { width:70px; height:70px; position: absolute; top:389%; left:50%; 
+  transform: translate(-50%,-50%);}
+.skill_info_box img:nth-of-type(4) { width:70px; height:70px; position: absolute; top:389%; left:55%; 
+  transform: translate(-50%,-50%);}
+.skill_info_box img:nth-of-type(5) { width:70px; height:70px; position: absolute; top:389%; left:60%; 
+transform: translate(-50%,-50%);}
+.skill_info_box h1 {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center; 
+     padding-top:130px; letter-spacing:1px;}
+.skill_info_box p {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:32px; text-align:center;
+     padding-top:50px; line-height: 36px;}
+.skill_info_box span {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:21px; text-align:center;
+  padding-top:30px; position: absolute; top:416%; left:50%; transform: translate(-50%,-50%);}   
+.s_box {width:100%; height:150px; margin:0 auto; }    
+                                  
+#work_top_box {width:1300px; height:165px; margin:0 auto; margin-top:200px; display:flex; align-items:flex-end; 
          justify-content:center;  margin-top:55px; }
 #work_top_box h1 { font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:67px; }
 #work_box {width:1600px; height:670px; margin:0 auto;}
 
 /* 첫번째 work  */
-.work1_box {width:1600px; height:670px; margin:0 auto; display:flex; flex-direction:row; }
+.work1_box {width:1600px; height:670px; margin:0 auto; display:flex; flex-direction:row;  }
 .work_1_s {width:8%; height:670px; margin:0 auto; display:flex; flex-direction:column;  }
 .work_1_l {width:25%; height:670px; margin:0 auto; display:flex; flex-direction:column; }
 .box1_work { width:100%; height:320px;}
@@ -258,21 +278,24 @@ body {width:100%; height:5740px;}
 /* 마지막 work  */
 
 #end_top_box {width:1500px; height:130px; margin-top:50px; margin:0 auto; display:flex; 
-             align-items:flex-end;  justify-content:center;  margin-top:350px;}
+             align-items:flex-end;  justify-content:center;  margin-top:350px; }
 #end_top_box h1 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:67px;}
 #end_sub_box {width:1500px; height:60px; margin:0 auto; text-align:center; }
-#end_sub_box h2 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:40px; margin-top:5px; }
+#end_sub_box h2 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:44px; margin-top:5px; }
 #end_box {width:1500px; height:320px; margin:0 auto; background-color:#e8e5e3; }
-.footer_box {width:100%; height:150px; margin-top:50px; background-color: #717171; }
-.footer_box_info {width:100%; height:10px; padding-top:65px;}
+.footer_box {width:100%; height:200px; margin-top:50px; background-color: #717171; }
+.footer_box_info {width:100%; height:10px; padding-top:93px;}
 .footer_box_info h1 {font-family:'S-CoreDream-3Light';  font-size:13px; height:15px; text-align:center; color:#c4c1c1}
-.footer_box p {font-family:'S-CoreDream-3Light'; font-size:10px;
-  letter-spacing:1px; margin-top:40px; text-align:center; color:#c4c1c1;}
+.footer_box p {font-family:'S-CoreDream-3Light'; font-size:9px; letter-spacing:1px; margin-top:25px; 
+            text-align:center; color:#c4c1c1;}
 
 
 /* 이메일 폰 인스타그램 */
 .inner p {font-family:'Barlow', sans-serif; font-weight:400; letter-spacing:1px; margin-top:15px; }
-.back p {font-family:'Barlow', sans-serif; font-size:30px;}
+.back p {font-family:'Barlow', sans-serif; font-size:27px;}
+.inner img:first-of-type {width:70px; height:70px;}
+.inner img:nth-of-type(2) {width:70px; height:70px;}
+.fa {font-size:50px; color:#fff;}
 
 .cols_info{
   margin-top:15px;
@@ -328,7 +351,7 @@ body {width:100%; height:5740px;}
     height: 100%;
     content: '';
     display: block;
-    background-color: #d0bbae;
+    background-color: #c9beb4;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
 
@@ -394,7 +417,7 @@ body {width:100%; height:5740px;}
 }
 
 .front .inner p{
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-bottom: 2rem;
   position: relative;
 }
@@ -415,9 +438,8 @@ body {width:100%; height:5740px;}
 .front .inner span{
   color: rgba(255,255,255,0.7);
   font-family: 'Montserrat';
-  font-weight: 300;
+  font-weight: 200;
 }
-.fa {font-size:50px;}
 
 @media screen and (max-width: 64rem){
   .col{
@@ -438,6 +460,33 @@ body {width:100%; height:5740px;}
   }
 }
 /* 이메일 폰 인스타그램 */
+
+
+
+/* TOP 버튼 */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color:#000;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  letter-spacing: 1px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  font-size: 11px;
+  transition: 0.6s;
+}
+
+#myBtn:hover {
+  background-color: #df9090;}
+/* TOP 버튼 */
 
 
 

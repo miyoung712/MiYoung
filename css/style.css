@@ -151,7 +151,7 @@ small {
 body > h4 {
   font-family:'Barlow', sans-serif;
   color:#8a8989;
-  font-size:12px;
+  font-size:10px;
   /* margin:-600px 0 0 50px; */
   font-weight: 400;
   transform: rotate(90deg) translateX(-50%);
