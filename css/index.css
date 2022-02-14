@@ -2,6 +2,12 @@
 
 body {width:100%; height:5740px;}
 
+/* 마우스 effect */
+.m_effect { border-radius: 100px; position: absolute;}
+.circle--1 { background: black; height: 11px; width: 11px; z-index: 2; background: #fff;}
+.circle--2 { height: 50px; width: 50px; border: solid #fff 3px; margin-left:50px;}
+/* 마우스 effect */
+
 #scorllDownBox {width:150px; height:120px; margin:0 auto; top:0; bottom:0; margin-top:70px;
         display:flex;  justify-content:center; align-items:center;}
 .scrollDown {width: 30px; height: 45px; border: 2px solid #3e3e3e; border-radius: 60px; 
@@ -61,9 +67,9 @@ transform: translate(-50%,-50%);}
 .skill_info_box h1 {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center; 
      padding-top:140px; letter-spacing:1px;}
 .skill_info_box p {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:32px; text-align:center;
-     padding-top:40px; line-height: 36px;}
-.skill_info_box span {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:21px; text-align:center;
-  padding-top:40px; position: absolute; top:414%; left:50%; transform: translate(-50%,-50%);}   
+     padding-top:35px; line-height: 36px;}
+.skill_info_box span {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:20px; text-align:center;
+  padding-top:40px; position: absolute; top:413%; left:50%; transform: translate(-50%,-50%);}   
 .skill_info_box h3 {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center;
   padding-top:10px; position: absolute; top:414%; left:50%; transform: translate(-50%,-50%); letter-spacing:1px;}  
 .skill_info_box h3:hover {cursor:pointer;}
