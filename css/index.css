@@ -582,7 +582,7 @@ transform: translate(-50%,-50%);}
   line-height: 24px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   font-family: "S-CoreDream-4Regular";
   border: none;
   outline: none;
@@ -608,7 +608,7 @@ transform: translate(-50%,-50%);}
   line-height: 24px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   font-family: "S-CoreDream-4Regular";
   border: none;
   outline: none;
@@ -634,7 +634,7 @@ transform: translate(-50%,-50%);}
   line-height: 24px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   font-family: "S-CoreDream-4Regular";
   border: none;
   outline: none;
@@ -661,7 +661,7 @@ transform: translate(-50%,-50%);}
   line-height: 24px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   font-family: "S-CoreDream-4Regular";
   border: none;
   outline: none;
@@ -687,7 +687,7 @@ transform: translate(-50%,-50%);}
   line-height: 24px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   font-family: "S-CoreDream-4Regular";
   border: none;
   outline: none;
@@ -732,7 +732,8 @@ transform: translate(-50%,-50%);}
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-animation: var(--name, none) 0.7s linear forwards 0.18s;
-          animation: var(--name, none) 0.7s linear forwards 0.18s;    
+          animation: var(--name, none) 0.7s linear forwards 0.18s; 
+padding-left:3px;   
 }
 .button.in {
   --name: move;
