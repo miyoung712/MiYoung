@@ -48,22 +48,25 @@ body {width:100%; height:5740px;}
   align-items:flex-end;  justify-content:center;   background-color: #d8d5d3; }
 #skill_box h1 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:70px;}
 .skill_info_box {width:100%; height:470px; margin:0 auto; background-color: #d8d5d3;}
-.skill_info_box img:first-of-type {width:70px; height:70px; position: absolute; top:389%; left:40%; 
+.skill_info_box img:first-of-type {width:70px; height:70px; position: absolute; top:391%; left:40%; 
   transform: translate(-50%,-50%);}
-.skill_info_box img:nth-of-type(2) { width:70px; height:70px; position: absolute; top:389%; left:45%; 
+.skill_info_box img:nth-of-type(2) { width:70px; height:70px; position: absolute; top:391%; left:45%; 
   transform: translate(-50%,-50%);}
-.skill_info_box img:nth-of-type(3) { width:70px; height:70px; position: absolute; top:389%; left:50%; 
+.skill_info_box img:nth-of-type(3) { width:70px; height:70px; position: absolute; top:391%; left:50%; 
   transform: translate(-50%,-50%);}
-.skill_info_box img:nth-of-type(4) { width:70px; height:70px; position: absolute; top:389%; left:55%; 
+.skill_info_box img:nth-of-type(4) { width:70px; height:70px; position: absolute; top:391%; left:55%; 
   transform: translate(-50%,-50%);}
-.skill_info_box img:nth-of-type(5) { width:70px; height:70px; position: absolute; top:389%; left:60%; 
+.skill_info_box img:nth-of-type(5) { width:70px; height:70px; position: absolute; top:391%; left:60%; 
 transform: translate(-50%,-50%);}
 .skill_info_box h1 {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center; 
-     padding-top:130px; letter-spacing:1px;}
+     padding-top:140px; letter-spacing:1px;}
 .skill_info_box p {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:32px; text-align:center;
-     padding-top:50px; line-height: 36px;}
+     padding-top:40px; line-height: 36px;}
 .skill_info_box span {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:21px; text-align:center;
-  padding-top:30px; position: absolute; top:416%; left:50%; transform: translate(-50%,-50%);}   
+  padding-top:40px; position: absolute; top:414%; left:50%; transform: translate(-50%,-50%);}   
+.skill_info_box h3 {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center;
+  padding-top:10px; position: absolute; top:414%; left:50%; transform: translate(-50%,-50%); letter-spacing:1px;}  
+.skill_info_box h3:hover {cursor:pointer;}
 .s_box {width:100%; height:150px; margin:0 auto; }    
                                   
 #work_top_box {width:1300px; height:165px; margin:0 auto; margin-top:200px; display:flex; align-items:flex-end; 
@@ -463,6 +466,7 @@ transform: translate(-50%,-50%);}
 
 
 
+
 /* TOP 버튼 */
 #myBtn {
   display: none;
@@ -491,6 +495,7 @@ transform: translate(-50%,-50%);}
 
 
 
+
 /* 스크롤 바 컬러 */
 /* width */
 ::-webkit-scrollbar {
@@ -514,6 +519,7 @@ transform: translate(-50%,-50%);}
   background: #a3a2a2; 
 }
 /* 스크롤 바 컬러 */
+
 
 
 
