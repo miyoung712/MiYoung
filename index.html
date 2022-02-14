@@ -138,6 +138,7 @@
         <ul class="nav_bar">
          <li><a href="index.html" class="navcolor">HOME</a></li>
          <li><a href="#about_top">ABOUT</a></li>
+         <li><a href="#fake_box">SKILL</a></li>
          <li><a href="#work_top_box">WORK</a></li>
          <li><a href="#end_top_box">CONTACT</a></li>
         </ul>
@@ -222,12 +223,24 @@
        </div>
     </div>
   </div>
-
+ 
+  <div id="fake_box"></div>
 
   <div id="skill_box">
-
-
+     <h1>My skills</h1>
   </div>
+  <div class="skill_info_box">
+   <img src="img/icon//ps.jpg" alt="">
+   <img src="img/icon/ai.jpg" alt="">
+   <img src="img/icon/html.png" alt="">
+   <img src="img/icon/js.png" alt="">
+   <img src="img/icon/jq.png" alt="">
+   <h1>Photoshop · illustration · HTML5 · CSS3 · JavaScript · JQuery  · ajax</h1>
+   <p>"Everyone is like a diamond gemstone<br>
+    If you polish it, everyone will shine brightly"</p>
+   <span>- Thomas Edison -</span>
+ </div>s
+ <div class="s_box"></div>
 
 
 
@@ -528,7 +541,7 @@
                 <div class="front" style="background-color:#fff;">
                   <div class="inner">
                     <p>Phone</p>
-                  <i class="fa fa-phone"></i>
+                    <img src="img/phon.png" alt="">
                   </div>
                 </div>
                 <div class="back">
@@ -543,13 +556,13 @@
               <div class="container_end">
                 <div class="front" style="background-color:#fff;" >
                   <div class="inner">
-                    <p>Instagram</p>
-               <i class="fa fa-instagram"></i>
+                    <p>KaKaoTalk</p>
+                     <img src="img/Kakao.png" alt="">
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
-                    <p>instagram.com</p>
+                    <p>miyoung712</p>
                   </div>
                 </div>
               </div>
@@ -565,6 +578,11 @@
      </div>
        <p>©COPYRIGHT 2022 MiYOUNG LEE. RIGHTS RESERVED.</p>
    </div>
+
+   
+  <!-- TOP 버튼   -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+  <!-- TOP 버튼   -->
 
 
     <script>
@@ -596,6 +614,25 @@
             dots[slideIndex - 1].className += " active";
         }
         // work 슬라이드
+
+        
+        // TOP 버튼
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        // TOP 버튼
     </script>
 
     <script src="js/script_b.js"></script>
