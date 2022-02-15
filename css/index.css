@@ -3,9 +3,9 @@
 body {width:100%; height:5740px;}
 
 /* 마우스 effect */
-.m_effect { border-radius: 100px; position: absolute;}
+/* .m_effect { border-radius: 100px; position: absolute;}
 .circle--1 { background: black; height: 11px; width: 11px; z-index: 2; background: #fff;}
-.circle--2 { height: 50px; width: 50px; border: solid #fff 3px; margin-left:50px;}
+.circle--2 { height: 50px; width: 50px; border: solid #fff 3px; margin-left:50px;} */
 /* 마우스 effect */
 
 #scorllDownBox {width:150px; height:120px; margin:0 auto; top:0; bottom:0; margin-top:70px;
@@ -54,40 +54,40 @@ body {width:100%; height:5740px;}
   align-items:flex-end;  justify-content:center;   background-color: #d8d5d3; }
 #skill_box h1 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:70px;}
 .skill_info_box {width:100%; height:470px; margin:0 auto; background-color: #d8d5d3;}
-.skill_info_box img:first-of-type {width:70px; height:70px; position: absolute; top:391%; left:40%; 
+.skill_info_box img:first-of-type {width:70px; height:70px; position: absolute; top:389%; left:37%; 
   transform: translate(-50%,-50%);}
-.skill_info_box img:nth-of-type(2) { width:70px; height:70px; position: absolute; top:391%; left:45%; 
+.skill_info_box img:nth-of-type(2) { width:70px; height:70px; position: absolute; top:389%; left:42%; 
   transform: translate(-50%,-50%);}
-.skill_info_box img:nth-of-type(3) { width:70px; height:70px; position: absolute; top:391%; left:50%; 
+.skill_info_box img:nth-of-type(3) { width:70px; height:70px; position: absolute; top:389%; left:47%; 
   transform: translate(-50%,-50%);}
-.skill_info_box img:nth-of-type(4) { width:70px; height:70px; position: absolute; top:391%; left:55%; 
+.skill_info_box img:nth-of-type(4) { width:70px; height:70px; position: absolute; top:389%; left:52%; 
   transform: translate(-50%,-50%);}
-.skill_info_box img:nth-of-type(5) { width:70px; height:70px; position: absolute; top:391%; left:60%; 
+.skill_info_box img:nth-of-type(5) { width:70px; height:70px; position: absolute; top:389%; left:57%; 
 transform: translate(-50%,-50%);}
+.skill_info_box img:nth-of-type(6) { width:70px; height:70px; position: absolute; top:389%; left:62%; 
+  transform: translate(-50%,-50%);}
 .skill_info_box h1 {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center; 
-     padding-top:140px; letter-spacing:1px;}
+     padding-top:125px; letter-spacing:1px;}
 .skill_info_box p {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:32px; text-align:center;
      padding-top:35px; line-height: 36px;}
 .skill_info_box h4 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:20px; text-align:center;
-  margin-top:20px;  }
-.btn_open {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center; 
-  margin-top:-5px; letter-spacing:1px;}
+  margin-top:22px;  }
 .skill_info_box span:hover {cursor:pointer;}
 
 /* 팝업창 */
-.pop_wrap {position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); font-size:0; text-align:center;}
-.pop_wrap:after {display:inline-block; height:100%; vertical-align:middle; content:'';}
+.pop_wrap {position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); font-size:0; text-align:center; z-index:10;}
+.pop_wrap:after {display:inline-block; height:100%; vertical-align:middle; content:''; }
 .pop_wrap .pop_inner {display:inline-block; background:#e8e5e3; 
     width:900px; height:500px; vertical-align:middle;  z-index:300;}
 .pop_inner p {margin-top:30px;}
 .pop_korean {font-family:'S-CoreDream-4Regular'; color:#3e3e3e; font-size:33px; line-height:45px; 
   margin-top:120px;}
-.pop_inner h4 {font-family:'S-CoreDream-4Regular'; color:#9e9d9c; font-size:17px; line-height:25px; 
+.pop_inner h4 {font-family:'S-CoreDream-4Regular'; color:#9e9d9c; font-size:18px; line-height:27px; 
   margin-top:30px;}  
-.btn_close {width:70px; height:50px; background-color:#333; margin-top:30px; color:#fff; 
-  font-family:'GowunBatang-Bold';  font-size:12px; text-align:center; letter-spacing:1px;}
+.btn_close {width:70px; height:50px;}
 .btn_close:hover {cursor:pointer;}
-.btn_open {text-align:center; color:red; color:50px;}
+.btn_open {font-family:'GowunBatang-Bold'; color:#868585; font-size:14px; text-align:center; 
+  margin-top:-5px; letter-spacing:1px; display: block; color:#d15050; }
 /* 팝업창 */
 
 .s_box {width:100%; height:150px; margin:0 auto; }    
@@ -800,3 +800,104 @@ padding-left:3px;
   }
 }
 /* work 메인/서브 버튼 */
+
+
+
+/* 팝업 버튼 */
+.btn_close:first-of-type {
+  --color: #fff;
+  --color-hover: var(--color);
+  --background: #df9090;
+  --background-hover: var(--background);
+  --hover-back: #646363;
+  --hover-front: #3e3e3e;
+  padding: 3px 50px;
+  border-radius: 33px;
+  line-height: 24px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "S-CoreDream-4Regular";
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--c, var(--color));
+  background: var(--b, var(--background));
+  margin-top:15px;
+}
+
+.btn_close:not(.simple):before, .btn_close:not(.simple):after {
+  content: '';
+  position: absolute;
+  background: var(--pb, var(--hover-back));
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200%;
+  border-radius: var(--br, 40%);
+  -webkit-transform: translateY(var(--y, 50%));
+          transform: translateY(var(--y, 50%));
+  -webkit-transition: border-radius 0.5s ease var(--br-d, 0.08s), -webkit-transform var(--d, 0.4s) ease-in var(--d-d, 0s);
+  transition: border-radius 0.5s ease var(--br-d, 0.08s), -webkit-transform var(--d, 0.4s) ease-in var(--d-d, 0s);
+  transition: transform var(--d, 0.4s) ease-in var(--d-d, 0s), border-radius 0.5s ease var(--br-d, 0.08s);
+  transition: transform var(--d, 0.4s) ease-in var(--d-d, 0s), border-radius 0.5s ease var(--br-d, 0.08s), -webkit-transform var(--d, 0.4s) ease-in var(--d-d, 0s);
+}
+.btn_close:not(.simple):after {
+  --pb: var(--hover-front);
+  --d: .44s;
+}
+.btn_close div {
+  z-index: 1;
+  position: relative;
+  display: flex;
+}
+.btn_close div span {
+  display: block;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-animation: var(--name, none) 0.7s linear forwards 0.18s;
+          animation: var(--name, none) 0.7s linear forwards 0.18s; 
+  margin:0px 25px 0px -23px;
+}
+.btn_close.in {
+  --name: move;
+}
+.btn_close.in:not(.out) {
+  --c: var(--color-hover);
+  --b: var(--background-hover);
+}
+.btn_close.in:not(.out):before, .btn_close.in:not(.out):after {
+  --y: 0;
+  --br: 5%;
+}
+.btn_close.in:not(.out):after {
+  --br: 10%;
+  --d-d: .02s;
+}
+
+.btn_close.in.out:before {
+  --d-d: .06s;
+}
+
+@-webkit-keyframes move {
+  30%,
+    36% {
+    -webkit-transform: translateY(calc(-6px * var(--move))) translateZ(0) rotate(calc(-13deg * var(--rotate) * var(--part)));
+            transform: translateY(calc(-6px * var(--move))) translateZ(0) rotate(calc(-13deg * var(--rotate) * var(--part)));
+  }
+  50% {
+    -webkit-transform: translateY(calc(3px * var(--move))) translateZ(0) rotate(calc(6deg * var(--rotate) * var(--part)));
+            transform: translateY(calc(3px * var(--move))) translateZ(0) rotate(calc(6deg * var(--rotate) * var(--part)));
+  }
+  70% {
+    -webkit-transform: translateY(calc(-2px * var(--move))) translateZ(0) rotate(calc(-3deg * var(--rotate) * var(--part)));
+            transform: translateY(calc(-2px * var(--move))) translateZ(0) rotate(calc(-3deg * var(--rotate) * var(--part)));
+  }
+}
+/* 팝업 버튼 */
