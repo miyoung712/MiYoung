@@ -1,3 +1,4 @@
+// ABOUT
 $(window).ready(function() {
   var typingBool = false;
   var typingIdx = 0;
@@ -24,7 +25,7 @@ $(window).ready(function() {
 
 
 
-
+// SKILL
 $(window).ready(function() {
   var typingBool = false;
   var typingIdx = 0;
@@ -51,7 +52,7 @@ $(window).ready(function() {
 
 
 
-
+// WORK
 $(window).ready(function() {
   var typingBool = false;
   var typingIdx = 0;
