@@ -68,11 +68,27 @@ transform: translate(-50%,-50%);}
      padding-top:140px; letter-spacing:1px;}
 .skill_info_box p {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:32px; text-align:center;
      padding-top:35px; line-height: 36px;}
-.skill_info_box span {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:20px; text-align:center;
-  padding-top:40px; position: absolute; top:413%; left:50%; transform: translate(-50%,-50%);}   
-.skill_info_box h3 {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center;
-  padding-top:10px; position: absolute; top:414%; left:50%; transform: translate(-50%,-50%); letter-spacing:1px;}  
-.skill_info_box h3:hover {cursor:pointer;}
+.skill_info_box h4 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:20px; text-align:center;
+  margin-top:20px;  }
+.btn_open {font-family:'GowunBatang-Bold'; color:#868585; font-size:13px; text-align:center; 
+  margin-top:-5px; letter-spacing:1px;}
+.skill_info_box span:hover {cursor:pointer;}
+
+/* 팝업창 */
+.pop_wrap {position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); font-size:0; text-align:center;}
+.pop_wrap:after {display:inline-block; height:100%; vertical-align:middle; content:'';}
+.pop_wrap .pop_inner {display:inline-block; padding:20px 30px; background:#e8e5e3; 
+    width:900px; height:500px; vertical-align:middle; font-size:15px;  z-index:300;}
+.pop_inner p {margin-top:30px;}
+.pop_korean {font-family:'S-CoreDream-4Regular'; color:#3e3e3e; font-size:30px; line-height:40px; 
+  margin-top:100px;}
+.pop_korean:nth-of-type(2) {font-family:'S-CoreDream-4Regular'; color:#3e3e3e; font-size:15px; line-height:40px; 
+  margin-top:100px;}  
+.btn_close {width:70px; height:50px; background-color:#333; margin-top:100px; color:#fff; 
+  font-family:'GowunBatang-Bold';  font-size:13px; text-align:center; letter-spacing:1px;}
+.btn_close:hover {cursor:pointer;}
+/* 팝업창 */
+
 .s_box {width:100%; height:150px; margin:0 auto; }    
                                   
 #work_top_box {width:1300px; height:165px; margin:0 auto; margin-top:200px; display:flex; align-items:flex-end; 
