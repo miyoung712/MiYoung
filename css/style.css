@@ -78,14 +78,14 @@ small {
   height: 100vh;
   width: 100%;
   background-color: white;
-  z-index: 5;
+  z-index: 15;
 }
 .intro__title {
   color: white;
   max-width: 45%;
   text-align: center;
   mix-blend-mode: difference;
-  z-index: 2;
+  z-index: 12;
   text-transform: uppercase;
   transform: translateY(200px);
 }
@@ -183,7 +183,7 @@ body > h4 {
   line-height: 55px;
   transform: translateX(50%);
   margin-top:260px;
-  z-index: 3;
+  z-index: 13;
 }
 
 .hero__col--1 p{
@@ -196,7 +196,7 @@ body > h4 {
   margin-top:20px;
   width:400px;
   height:100px;
-  z-index: 3;
+  z-index: 13;
 
 }
 
