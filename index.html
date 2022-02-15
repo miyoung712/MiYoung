@@ -186,7 +186,7 @@
    <!-- 마우스 effect -->
    <script src="js/script_effect.js"></script>
 
-   
+
     <div id="scorllDownBox">
         <div class="scrollDown">
          <i class="fas fa-chevron-down"></i>
@@ -247,9 +247,22 @@
    <h1>Photoshop · illustration · HTML5 · CSS3 · JavaScript · JQuery  · ajax</h1>
    <p>"Everyone is like a diamond gemstone<br>
     If you polish it, everyone will shine brightly"</p>
-   <span>- Thomas Edison -</span>
-   <h3>[Click]</h3>
- </div>
+
+   <!-- 팝업창 -->
+    <div id="pop_info_1" class="pop_wrap" style="display:none;">
+      <div class="pop_inner">
+         <h5 class="pop_korean">" 모든 사람은 다이아몬드 원석과 같다.<br>
+          갈고 닦으면 누구나 찬란히 빛나게 마련이다 "</h5>
+         <h6>아직 다듬어지지 않은 원석과도 같은 존재이지만<br>
+         배움을 마다하지 않고 열심히 공부하여 회사와 함께 빛날 수 있도록 하겠습니다.</h6>
+       <button type="button_pop" class="btn_close">CLOSE</button>
+      </div>
+   </div>   
+      <h4>- Thomas Edison -</h4>
+      <a href="#pop_info_1" class="btn_open"><b>[CLICK]</b></a>
+  </div>
+  <!-- 팝업창 -->
+
  <div class="s_box"></div>
 
   <div id="work_top_box">
@@ -624,6 +637,8 @@
         // work 슬라이드
 
         
+
+
         // TOP 버튼
         var mybutton = document.getElementById("myBtn");
 
@@ -641,6 +656,30 @@
           document.documentElement.scrollTop = 0;
         }
         // TOP 버튼
+
+
+
+
+        // 팝업창
+        var target = document.querySelectorAll('.btn_open');
+        var btnPopClose = document.querySelectorAll('.pop_wrap .btn_close');
+        var targetID;
+
+        // 팝업 열기
+        for(var i = 0; i < target.length; i++){
+          target[i].addEventListener('click', function(){
+            targetID = this.getAttribute('href');
+            document.querySelector(targetID).style.display = 'block';
+          });
+        }
+
+        // 팝업 닫기
+        for(var j = 0; j < target.length; j++){
+          btnPopClose[j].addEventListener('click', function(){
+            this.parentNode.parentNode.style.display = 'none';
+          });
+        }
+      // 팝업창
     </script>
 
     <script src="js/script_b.js"></script>
