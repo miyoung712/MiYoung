@@ -24,7 +24,11 @@ body {width:100%; height:5740px;}
 #about_top {width:1300px; height:200px; margin:0 auto; margin-top:240px; display:flex; align-items:flex-end; }
 #about_box {width:1300px; height:600px; margin:0 auto; margin-top:10px; 
           display:flex; flex-direction:row;}
-#about_top h1 { font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:67px; margin-left:20px;}
+
+#about_top h1.typing-txt {display: none;}
+#about_top .typing { display: inline-block; animation-name: cursor; animation-duration: 0.3s; animation-iteration-count: infinite;
+  font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:67px; margin-left:20px;}
+
 .about_l {width:38%; height:600px; }
 .about_img {width:100%; height:600px; display:flex; align-items:center;}
 .about_img img {width:430px; height:430px; margin-left:20px;}
@@ -51,8 +55,12 @@ body {width:100%; height:5740px;}
 
 #skill_top_box {width:1600px; height:100px;  margin:0 auto; margin-top:220px;}
 #skill_box {width:100%; height:220px; margin:0 auto; display:flex; 
-  align-items:flex-end;  justify-content:center;   background-color: #d8d5d3; }
-#skill_box h1 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:70px;}
+  align-items:flex-end; justify-content:center; background-color: #d8d5d3; }
+
+#skill_box h1.typing-txt {display: none;}
+#skill_box .typing { display: inline-block; animation-name: cursor; animation-duration: 0.3s; animation-iteration-count: infinite;
+  font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:70px;}
+
 .skill_info_box {width:100%; height:470px; margin:0 auto; background-color: #d8d5d3;}
 .skill_info_box img:first-of-type {width:70px; height:70px; position: absolute; top:389%; left:37.7%; 
   transform: translate(-50%,-50%);}
@@ -91,11 +99,13 @@ transform: translate(-50%,-50%);}
 /* 팝업창 */
 
 .s_box {width:100%; height:150px; margin:0 auto; }    
-                                  
-#work_top_box {width:1300px; height:165px; margin:0 auto; margin-top:200px; display:flex; align-items:flex-end; 
+ #work_top_box {width:1300px; height:165px; margin:0 auto; margin-top:200px; display:flex; align-items:flex-end; 
          justify-content:center;  margin-top:55px; }
-#work_top_box h1 { font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:67px; }
 #work_box {width:1600px; height:670px; margin:0 auto;}
+
+#work_top_box h1.typing-txt {display: none;}
+#work_top_box .typing { display: inline-block; animation-name: cursor; animation-duration: 0.3s; animation-iteration-count: infinite;
+  font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:67px; }
 
 /* 첫번째 work  */
 .work1_box {width:1600px; height:670px; margin:0 auto; display:flex; flex-direction:row;  }
@@ -305,7 +315,11 @@ transform: translate(-50%,-50%);}
 
 #end_top_box {width:1500px; height:130px; margin-top:50px; margin:0 auto; display:flex; 
              align-items:flex-end;  justify-content:center;  margin-top:350px; }
-#end_top_box h1 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:67px;}
+
+#end_top_box h1.typing-txt {display: none;}
+#end_top_box .typing { display: inline-block; animation-name: cursor; animation-duration: 0.3s; animation-iteration-count: infinite;
+  font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:67px;}
+
 #end_sub_box {width:1500px; height:60px; margin:0 auto; text-align:center; }
 #end_sub_box h2 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:44px; margin-top:5px; }
 #end_box {width:1500px; height:320px; margin:0 auto; background-color:#e8e5e3; }
