@@ -325,9 +325,9 @@ transform: translate(-50%,-50%);}
 #end_top_box {width:1500px; height:160px; margin-top:100px; margin:0 auto; display:flex; 
              align-items:flex-end;  justify-content:center;  margin-top:350px; }
 
-#end_first_box > div {padding: 10px;}
-#end_first_box h2 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:44px; margin-top:5px;}
-#end_first_box {width:100%; margin:0 auto; }
+#end_first_sub_box > div {padding: 10px;}
+#end_first_sub_box h2 {font-family:'GowunBatang-Bold'; color:#3e3e3e; font-size:44px; margin-top:5px;}
+#end_first_sub_box {width:100%; margin:0 auto; }
 .cs1 {transform: translateY(100px); transition: all 2s; opacity: 0;}
 #end_sub_box {width:1500px; height:60px; margin:0 auto; text-align:center; }
 
