@@ -26,12 +26,10 @@
  <link rel="stylesheet" href="css/style.css">
  <link rel="stylesheet" href="css/common.css">
  <link rel="stylesheet" href="css/index.css">
- <script src="js/script_typing.js"></script>
  
-
  <script>
-  $(function () {
 
+$(function () {
     // 포트폴리오 1 
     $('.work_1_r .w_imgbox').mouseover(function () {
         $('.work_1_r .w_imgbox img').stop().animate({ 'marginTop': '-1647.77px' }, 7000);
@@ -117,8 +115,65 @@
         $('.work_6_r .iphone_img_box6 img').stop().animate({ 'marginTop': '0px' }, 3000);
     });
     // 마지막 PC _ 아이폰
-
   });
+
+
+
+
+  $(function(){
+
+    //  타이틀 슬라이드 ABOUT
+    $(window).scroll(function(){
+      var ws=$(this).scrollTop();
+        if(ws>1000){
+     $('.a1').css("transform","translateY(0px)").css("opacity","1");
+      }
+    });
+    //  타이틀 슬라이드 ABOUT
+
+
+    //  타이틀 슬라이드 SKILL
+     $(window).scroll(function(){
+      var ws=$(this).scrollTop();
+        if(ws>2800){
+     $('.s1').css("transform","translateY(0px)").css("opacity","1");
+      }
+    });
+    //  타이틀 슬라이드 SKILL
+
+
+    //  타이틀 슬라이드 WORK
+        $(window).scroll(function(){
+      var ws=$(this).scrollTop();
+        if(ws>3400){
+     $('.w1').css("transform","translateY(0px)").css("opacity","1");
+      }
+    });
+    //  타이틀 슬라이드 WORK
+
+
+
+    //  타이틀 슬라이드 CONTACT
+    $(window).scroll(function(){
+      var ws=$(this).scrollTop();
+        if(ws>5000){
+     $('.c1').css("transform","translateY(0px)").css("opacity","1");
+      }
+    });
+    //  타이틀 슬라이드 CONTACT
+
+
+    
+    //  타이틀 슬라이드 CONTACT SUB
+    $(window).scroll(function(){
+      var ws=$(this).scrollTop();
+        if(ws>5500){
+     $('.cs1').css("transform","translateY(0px)").css("opacity","1");
+      }
+    });
+    //  타이틀 슬라이드 CONTACT SUB
+  }); 
+
 </script>
 
 
@@ -195,14 +250,9 @@
        </div>
     </div>
 
-    <!-- <div id="about_top">
-        <h1>Let me introduce myself</h1>
-    </div> -->
-
-    <div id="about_top">
-     <h1 class="typing-txt">Let me introduce myself</h1>
-     <p class="typing"></p>
-   </div>
+    <div id="about_first_box">
+       <div id="about_top"><h1 class="a1">Let me introduce myself</h1></div>
+    </div>
 
   <div id="about_box">
      <div class="about_l">
@@ -241,13 +291,8 @@
  
   <div id="skill_top_box"></div>
 
-  <!-- <div id="skill_box">
-     <h1>My skills</h1>
-  </div> -->
-
-  <div id="skill_box">
-    <h1 class="typing-txt">My skills</h1>
-    <p class="typing"></p>
+  <div id="skill_first_box">
+    <div id="skill_box"><h1 class="s1">My skills</h1></div>
   </div>
 
   <div class="skill_info_box">
@@ -278,13 +323,8 @@
 
  <div class="s_box"></div>
 
-  <!-- <div id="work_top_box">
-        <h1>I'll show you my record</h1>
-  </div> -->
-
-  <div id="work_top_box">
-    <h1 class="typing-txt">I'll show you my record</h1>
-    <p class="typing"></p>
+  <div id="work_first_box">
+    <div id="work_top_box"><h1 class="w1">I'll show you my record</h1></div>
   </div>
 
   <div id="work_box">
@@ -548,17 +588,12 @@
       </div>
     </div>
 
-    <!-- <div id="end_top_box">
-      <h1>Thank you for watching !</h1>
-    </div> -->
-
-    <div id="end_top_box">
-      <h1 class="typing-txt">Thank you for watching !</h1>
-      <p class="typing"></p>
+    <div id="end_first_box">
+      <div id="end_top_box"><h1 class="c1">Thank you for watching !</h1></div>
     </div>
 
-    <div id="end_sub_box">
-      <h2>Contact me</h2>
+    <div id="end_first_box">
+      <div id="end_sub_box"><h2 class="cs1">Contact me</h2></div>
     </div>
     <!-- 이메일 폰 인스타그램 -->
     <div id="end_box">
