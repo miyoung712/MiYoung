@@ -1,6 +1,7 @@
 const mainBall = document.querySelector(".circle--1");
 const followBall = document.querySelector(".circle--2");
 
+
 const lerp = (from, to, ease) => (1 - ease) * from + ease * to;
 
 let currentX = window.innerWidth / 2;
