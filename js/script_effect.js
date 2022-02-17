@@ -21,6 +21,7 @@ let followCircle = {
 window.addEventListener("mousemove", e => {
   currentX = e.pageX;
   currentY = e.pageY;
+  
 });
 
 const circleMovement = (circle, ease, direction) => {
