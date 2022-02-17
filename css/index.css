@@ -3,9 +3,9 @@
 body {width:100%; height:5740px;}
 
 /* 마우스 effect */
-/* .m_effect { border-radius: 100px; position: absolute;}
-.circle--1 { background: black; height: 11px; width: 11px; z-index: 2; background: #fff;}
-.circle--2 { height: 50px; width: 50px; border: solid #fff 3px; margin-left:50px;} */
+.m_effect { border-radius: 100px; position: absolute; z-index:99 !important; top: 0; left: 0;}
+.m_effect.circle--1 { height: 11px; width: 11px; background: #fff;}
+.m_effect.circle--2 { height: 50px; width: 50px; border: solid #fff 3px; margin-left:50px;}
 /* 마우스 effect */
 
 #scorllDownBox {width:150px; height:120px; margin:0 auto; top:0; bottom:0; margin-top:70px;
