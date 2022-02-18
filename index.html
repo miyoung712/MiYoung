@@ -123,31 +123,69 @@ $(function () {
   $(function(){
 
     //  타이틀 슬라이드 ABOUT
-    $(window).scroll(function(){
-      var ws=$(this).scrollTop();
-        if(ws>1000){
-     $('.a1').css("transform","translateY(0px)").css("opacity","1");
-      }
-    });
+    // $(window).scroll(function(){
+    //   var ws=$(this).scrollTop();
+    //     if(ws>1000){
+    //  $('.a1').css("transform","translateY(0px)").css("opacity","1");
+    //   }
+    // });
     //  타이틀 슬라이드 ABOUT
 
+    //  타이틀 슬라이드 ABOU
+    $(window).scroll(function(){
+      var ws=$(this).scrollTop();
+
+          if(ws>500){
+            $('.a1').css("transform", "translateY(100px)").css("opacity", "0");
+          }
+
+          if(ws>900){
+           $('.a1').css("transform","translateY(0px)").css("opacity","1");
+          }
+
+         if(ws>1800){
+           $('.a1').css("transform","translateY(200px)").css("opacity","0");
+         }
+    });
+    //  타이틀 슬라이드 ABOU
+
+
 
     //  타이틀 슬라이드 SKILL
-     $(window).scroll(function(){
+    $(window).scroll(function(){
       var ws=$(this).scrollTop();
-        if(ws>2800){
-     $('.s1').css("transform","translateY(0px)").css("opacity","1");
-      }
+
+          if(ws>200){
+            $('.s1').css("transform", "translateY(100px)").css("opacity", "0");
+          }
+
+          if(ws>2800){
+           $('.s1').css("transform","translateY(0px)").css("opacity","1");
+          }
+
+         if(ws>3500){
+           $('.s1').css("transform","translateY(200px)").css("opacity","0");
+         }
     });
     //  타이틀 슬라이드 SKILL
+
 
 
     //  타이틀 슬라이드 WORK
-        $(window).scroll(function(){
+    $(window).scroll(function(){
       var ws=$(this).scrollTop();
-        if(ws>3400){
-     $('.w1').css("transform","translateY(0px)").css("opacity","1");
-      }
+
+          if(ws>1000){
+            $('.w1').css("transform", "translateY(100px)").css("opacity", "0");
+          }
+
+          if(ws>3600){
+           $('.w1').css("transform","translateY(0px)").css("opacity","1");
+          }
+
+         if(ws>4300){
+           $('.w1').css("transform","translateY(200px)").css("opacity","0");
+         }
     });
     //  타이틀 슬라이드 WORK
 
@@ -156,9 +194,14 @@ $(function () {
     //  타이틀 슬라이드 CONTACT
     $(window).scroll(function(){
       var ws=$(this).scrollTop();
-        if(ws>5000){
-     $('.c1').css("transform","translateY(0px)").css("opacity","1");
-      }
+
+          if(ws>700){
+            $('.c1').css("transform", "translateY(100px)").css("opacity", "0");
+          }
+
+          if(ws>4900){
+           $('.c1').css("transform","translateY(0px)").css("opacity","1");
+          }
     });
     //  타이틀 슬라이드 CONTACT
   }); 
